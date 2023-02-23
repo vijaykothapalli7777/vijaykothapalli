@@ -1,0 +1,76 @@
+body {
+	
+    background-image: url("https://images.pexels.com/photos/974911/pexels-photo-974911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    
+
+
+/* The rest of the CSS code here */
+
+}
+.trend{
+text-align: center;
+margin-top: 20px;
+color: rgb(207, 74, 34);
+font-size: large;
+font-weight: bold;
+}
+
+.login-box {
+width: 300px;
+background-image: url("https://images.pexels.com/photos/1462639/pexels-photo-1462639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+background-size:cover ;
+margin: 50px auto;
+padding: 40px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.3);
+animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+text-align: center;
+color: #333;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border-radius: 5px;
+border: none;
+box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+input[type="submit"] {
+background: #007bff;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+background: #0062cc;
+}
+
+@keyframes fadeIn {
+0% {
+    opacity: 0;
+    transform: translateY(-50px);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
